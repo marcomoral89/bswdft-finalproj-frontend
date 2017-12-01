@@ -110,7 +110,7 @@ class Game extends React.Component {
                         className="col-md-6 col-sm-12 text-center">
                         <button 
                             onTouchStart={this.counter}
-                            onClick={this.counter}
+                       
                             id="laugh-button"
                             className="btn-primary btn-lg">
                             <img style={{height:'100px'}} src="./laugh-emoji.svg" alt="laugh-button" /></button>
