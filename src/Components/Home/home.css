@@ -1,0 +1,111 @@
+/* RANDOM JOKE GENERATOR */
+
+#jb-wrapper {
+    min-height: 660px;
+    padding: 200px 3% 0 3%;
+    background: black;
+    margin-top: 0;
+}
+
+#jb-word {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: none;
+    color: white;
+}
+
+#random-button {
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4em;
+    background: linear-gradient(to bottom, #ED254E 0%, rgb(165, 1, 39) 100%);
+    border-color: rgb(194, 3, 48);
+    border-radius: 1em;
+    width: 120px;
+}
+
+
+/* INTRODUCTION */
+#intro-wrap {
+    min-height: 600px;     
+    
+}
+
+.intro-info {
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+.intro-info h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    font-weight: bold;   
+}
+
+.intro-info h2 {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.intro-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    color: gray;
+}
+
+/* FEATURES */
+#feature-wrap {
+    min-height: 750px;
+    background: linear-gradient(to bottom, #1A8FE3 0%, rgb(174, 227, 255) 100%);
+  
+}
+
+.header-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    margin: 100px 0 100px 0;
+    color: white;
+}
+
+#feature-style {
+   padding: 0 30px 0 30px;
+   margin-bottom: 65px;
+}
+
+#feature-style h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: white
+    
+}
+
+#feature-style p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+
+
+/* MEDIA QUERIES */
+
+/* PHONES */
+@media only screen and (min-width : 320px) {
+        .intro-info h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3em;
+        font-weight: bold;   
+    }
+
+    .intro-info h2 {
+        font-family: 'Roboto', sans-serif;
+        color: gray;
+        font-size: 1.4em;
+    }
+
+    .intro-info p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        font-style: italic;
+        color: gray;
+    }
+   
+}

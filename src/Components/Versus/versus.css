@@ -1,0 +1,40 @@
+#instructions-wrap {
+    min-height: 90vh;
+    padding: 0 80px 0 80px;
+}
+
+#gui {
+    margin-bottom: 100px;
+}
+
+#instructions-wrap h1 {
+     font-family: 'Pacifico', cursive;
+     padding-top: 60px;
+     font-size: 3em;
+     margin: 0 0 80px 0;
+}
+
+#instructions-wrap h2 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.instructions-style li {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+#random-joke-sample {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient(to bottom, #ED254E 0%, rgb(165, 1, 39) 100%);
+    border-color: rgb(194, 3, 48);
+    border-radius: 0.5em;
+    color: white;
+}
+
+#startgame a {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
