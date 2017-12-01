@@ -103,24 +103,24 @@ class Game extends React.Component {
                 </div>
                 
                 <div className="container">
-                <div className="row">
 
                     <div 
-                        id="button-div"
-                        className="col-md-6 col-sm-12 text-center">
+                        className="container"
+                        id="button-div">
+                       
                         <button 
-                            type="button"
                             id="laugh-button"
                             className="btn-primary btn-lg"
                             onClick={this.counter}
                             >
-                            <img style={{height:'100px'}} src="./laugh-emoji.svg" alt="laugh-button" />
+                            <img className="laugh-image" src="./laugh-emoji.svg" alt="laugh-button" />
                             </button>
                     </div>
 
                         <div
-                            id="icon-div" 
-                            className="col-md-6 col-sm-12 text-center">
+                            className="container"
+                            id="icon-div" >
+                         
                             <h1>Laugh Lives: </h1>
                                 {(this.state.life <= 4) ? 
                                 <i id="laughlife" className="fa fa-heart-o" aria-hidden="true"></i> : 
@@ -138,7 +138,6 @@ class Game extends React.Component {
                                 <i id="laughlife" className="fa fa-heart-o" aria-hidden="true"></i> :
                                 <i id="laughlife" className="fa fa-heart" aria-hidden="true"></i>}
                         </div>    
-                    </div>
                 </div>
             </div>
         )

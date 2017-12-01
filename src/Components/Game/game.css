@@ -26,18 +26,19 @@
 }
 
 #vs-random-button {
-    margin-top: 20px;
+    margin: 20px auto;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     background: linear-gradient(to bottom, #ED254E 0%, rgb(165, 1, 39) 100%);
     border-color: rgb(194, 3, 48);
     font-weight: bold;
 }
 
 #button-div {
-    float:left;
-    margin: 0;
+    float: left;
+    margin: 0 0 0 10%;
     padding: 0;
+    width: auto;
 }
 
 #laugh-button {
@@ -45,12 +46,18 @@
     cursor: pointer;
 }
 
+.laugh-image {
+    height: 8em;
+}
+
 #icon-div {
+    float: right;
     font-size: 60px;
-    padding: 0;
-    margin: 0;
+    padding:0;
+    margin: 0 10% 0 0;
     color:#ED254E;
     letter-spacing: 2px;
+    width: auto;
 }
 
 #icon-div h1 {
@@ -85,9 +92,20 @@
     font-size: 1.3em;
 }
 
-@media only screen and (min-width : 320px) {
-    #laughlife {
-        font-size: 70%;
-    }
+@media only screen and (max-width : 720px) {
+   #laughlife {
+       font-size: 40%;
+   }
+   #icon-div h1 {
+       font-size: 30%;
+   }
+   #laugh-button {
+   }
+   .laugh-image {
+       height: 4.4em;    
+   }
+   
 
 }
+
+
