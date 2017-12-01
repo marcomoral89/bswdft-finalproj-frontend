@@ -109,9 +109,12 @@ class Game extends React.Component {
                         id="button-div"
                         className="col-md-6 col-sm-12 text-center">
                         <button 
-                            onClick={this.counter}
+                            type="button"
                             id="laugh-button"
-                            className="btn-primary btn-lg">
+                            className="btn-primary btn-lg"
+                            onClick={this.counter}
+                            >
+                            <img style={{height:'100px'}} src="./laugh-emoji.svg" alt="laugh-button" />
                             </button>
                     </div>
 
