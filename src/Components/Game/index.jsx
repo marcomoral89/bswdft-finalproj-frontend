@@ -109,6 +109,7 @@ class Game extends React.Component {
                         id="button-div"
                         className="col-md-6 col-sm-12 text-center">
                         <button 
+                            onTouchStart={this.counter}
                             onClick={this.counter}
                             id="laugh-button"
                             className="btn-primary btn-lg">
