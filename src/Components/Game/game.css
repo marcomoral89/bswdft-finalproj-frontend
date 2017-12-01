@@ -1,6 +1,6 @@
 #game-wrap {
     padding: 50px 3% 100px 3%;
-    min-height: 95vh;
+    min-height: 96vh;
 }
 
 #vs-jumbotron {
@@ -42,6 +42,7 @@
 
 #laugh-button {
     border-radius: 30px;
+    cursor: pointer;
 }
 
 #icon-div {
